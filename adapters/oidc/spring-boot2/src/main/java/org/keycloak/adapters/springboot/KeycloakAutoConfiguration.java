@@ -43,7 +43,7 @@ import org.springframework.boot.web.embedded.undertow.UndertowServletWebServerFa
 @Configuration
 @ConditionalOnWebApplication
 @EnableConfigurationProperties(KeycloakSpringBootProperties.class)
-@ConditionalOnProperty(value = "keycloak.enabled", matchIfMissing = true)
+@ConditionalOnProperty(value = "keycloak.enabled", matchIfMissing = false)
 public class KeycloakAutoConfiguration extends KeycloakBaseSpringBootConfiguration {
 
 
