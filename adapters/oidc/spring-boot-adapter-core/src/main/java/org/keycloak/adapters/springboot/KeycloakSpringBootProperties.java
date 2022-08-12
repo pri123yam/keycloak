@@ -37,7 +37,7 @@ public class KeycloakSpringBootProperties extends AdapterConfig {
     /**
      * Allow enabling of Keycloak Spring Boot adapter by configuration.
      */
-    private boolean enabled = true;
+    private boolean enabled;
 
     public Map getConfig() {
         return config;
